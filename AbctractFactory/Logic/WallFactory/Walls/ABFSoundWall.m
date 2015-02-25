@@ -10,6 +10,15 @@
 
 @implementation ABFSoundWall
 
+- (instancetype)init
+{
+    self = [super init];
+    if (self) {
+        [self setBackgroundColor:[UIColor blueColor]];
+    }
+    return self;
+}
+
 - (void)wallTouched {
     [super wallTouched];
     NSLog(@"It was SOUND wall");

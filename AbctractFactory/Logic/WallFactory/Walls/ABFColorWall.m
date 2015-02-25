@@ -10,6 +10,15 @@
 
 @implementation ABFColorWall
 
+- (instancetype)init
+{
+    self = [super init];
+    if (self) {
+        [self setBackgroundColor:[UIColor redColor]];
+    }
+    return self;
+}
+
 - (void)wallTouched {
     [super wallTouched];
     NSLog(@"It was COLOR wall");
