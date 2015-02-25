@@ -6,7 +6,7 @@
 //  Copyright (c) 2015 Artem . All rights reserved.
 //
 
-@interface ABFWall : NSObject
+@interface ABFWall : UIView
 
 - (void)wallTouched;
 
