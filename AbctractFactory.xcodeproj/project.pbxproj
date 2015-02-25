@@ -7,13 +7,24 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		ACB183231A9DD43100038B87 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = ACB183221A9DD43100038B87 /* main.m */; };
 		ACB183261A9DD43100038B87 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = ACB183251A9DD43100038B87 /* AppDelegate.m */; };
-		ACB183291A9DD43100038B87 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ACB183281A9DD43100038B87 /* ViewController.m */; };
-		ACB1832C1A9DD43100038B87 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ACB1832A1A9DD43100038B87 /* Main.storyboard */; };
 		ACB1832E1A9DD43100038B87 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ACB1832D1A9DD43100038B87 /* Images.xcassets */; };
 		ACB183311A9DD43100038B87 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = ACB1832F1A9DD43100038B87 /* LaunchScreen.xib */; };
 		ACB1833D1A9DD43100038B87 /* AbctractFactoryTests.m in Sources */ = {isa = PBXBuildFile; fileRef = ACB1833C1A9DD43100038B87 /* AbctractFactoryTests.m */; };
+		ACB1834E1A9DDB6100038B87 /* ABFMain.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ACB183491A9DDB6100038B87 /* ABFMain.storyboard */; };
+		ACB1834F1A9DDB6100038B87 /* ABFMainScreenViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ACB1834D1A9DDB6100038B87 /* ABFMainScreenViewController.m */; };
+		ACB183521A9DDCA800038B87 /* ABFMainStoryboard.m in Sources */ = {isa = PBXBuildFile; fileRef = ACB183511A9DDCA800038B87 /* ABFMainStoryboard.m */; };
+		ACB1835A1A9DDF5D00038B87 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = ACB183581A9DDF5D00038B87 /* Info.plist */; };
+		ACB1835B1A9DDF5D00038B87 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = ACB183591A9DDF5D00038B87 /* main.m */; };
+		ACB183611A9DF5F200038B87 /* ABFLabyrinthView.xib in Resources */ = {isa = PBXBuildFile; fileRef = ACB183601A9DF5F200038B87 /* ABFLabyrinthView.xib */; };
+		ACB183641A9DFBCD00038B87 /* ABFLabyrinthView.m in Sources */ = {isa = PBXBuildFile; fileRef = ACB183631A9DFBCD00038B87 /* ABFLabyrinthView.m */; };
+		ACB183671A9E04AD00038B87 /* ABFLabyrinth.m in Sources */ = {isa = PBXBuildFile; fileRef = ACB183661A9E04AD00038B87 /* ABFLabyrinth.m */; };
+		ACB1836C1A9E171400038B87 /* ABFWall.m in Sources */ = {isa = PBXBuildFile; fileRef = ACB1836B1A9E171300038B87 /* ABFWall.m */; };
+		ACB1836F1A9E1AE300038B87 /* ABFWallFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = ACB1836E1A9E1AE300038B87 /* ABFWallFactory.m */; };
+		ACB183761A9E1CE000038B87 /* ABFSoundWall.m in Sources */ = {isa = PBXBuildFile; fileRef = ACB183751A9E1CE000038B87 /* ABFSoundWall.m */; };
+		ACB183791A9E1CF000038B87 /* ABFColorWall.m in Sources */ = {isa = PBXBuildFile; fileRef = ACB183781A9E1CF000038B87 /* ABFColorWall.m */; };
+		ACB1837D1A9E24FD00038B87 /* ABFSoundWallFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = ACB1837C1A9E24FD00038B87 /* ABFSoundWallFactory.m */; };
+		ACB183801A9E250D00038B87 /* ABFColorWallFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = ACB1837F1A9E250D00038B87 /* ABFColorWallFactory.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -28,18 +39,39 @@
 
 /* Begin PBXFileReference section */
 		ACB1831D1A9DD43100038B87 /* AbctractFactory.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AbctractFactory.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		ACB183211A9DD43100038B87 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		ACB183221A9DD43100038B87 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		ACB183241A9DD43100038B87 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		ACB183251A9DD43100038B87 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		ACB183271A9DD43100038B87 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		ACB183281A9DD43100038B87 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		ACB1832B1A9DD43100038B87 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		ACB1832D1A9DD43100038B87 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		ACB183301A9DD43100038B87 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		ACB183361A9DD43100038B87 /* AbctractFactoryTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AbctractFactoryTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		ACB1833B1A9DD43100038B87 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		ACB1833C1A9DD43100038B87 /* AbctractFactoryTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AbctractFactoryTests.m; sourceTree = "<group>"; };
+		ACB183491A9DDB6100038B87 /* ABFMain.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = ABFMain.storyboard; sourceTree = "<group>"; };
+		ACB1834C1A9DDB6100038B87 /* ABFMainScreenViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ABFMainScreenViewController.h; sourceTree = "<group>"; };
+		ACB1834D1A9DDB6100038B87 /* ABFMainScreenViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ABFMainScreenViewController.m; sourceTree = "<group>"; };
+		ACB183501A9DDCA800038B87 /* ABFMainStoryboard.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ABFMainStoryboard.h; sourceTree = "<group>"; };
+		ACB183511A9DDCA800038B87 /* ABFMainStoryboard.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ABFMainStoryboard.m; sourceTree = "<group>"; };
+		ACB183571A9DDF5D00038B87 /* AbstractFactory-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "AbstractFactory-Prefix.pch"; sourceTree = "<group>"; };
+		ACB183581A9DDF5D00038B87 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ACB183591A9DDF5D00038B87 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		ACB183601A9DF5F200038B87 /* ABFLabyrinthView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ABFLabyrinthView.xib; sourceTree = "<group>"; };
+		ACB183621A9DFBCD00038B87 /* ABFLabyrinthView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ABFLabyrinthView.h; sourceTree = "<group>"; };
+		ACB183631A9DFBCD00038B87 /* ABFLabyrinthView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ABFLabyrinthView.m; sourceTree = "<group>"; };
+		ACB183651A9E04AD00038B87 /* ABFLabyrinth.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ABFLabyrinth.h; sourceTree = "<group>"; };
+		ACB183661A9E04AD00038B87 /* ABFLabyrinth.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ABFLabyrinth.m; sourceTree = "<group>"; };
+		ACB1836A1A9E171300038B87 /* ABFWall.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ABFWall.h; path = ../ABFWall.h; sourceTree = "<group>"; };
+		ACB1836B1A9E171300038B87 /* ABFWall.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ABFWall.m; path = ../ABFWall.m; sourceTree = "<group>"; };
+		ACB1836D1A9E1AE300038B87 /* ABFWallFactory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ABFWallFactory.h; sourceTree = "<group>"; };
+		ACB1836E1A9E1AE300038B87 /* ABFWallFactory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ABFWallFactory.m; sourceTree = "<group>"; };
+		ACB183731A9E1BDC00038B87 /* ABFWallTypeEnum.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ABFWallTypeEnum.h; sourceTree = "<group>"; };
+		ACB183741A9E1CE000038B87 /* ABFSoundWall.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ABFSoundWall.h; sourceTree = "<group>"; };
+		ACB183751A9E1CE000038B87 /* ABFSoundWall.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ABFSoundWall.m; sourceTree = "<group>"; };
+		ACB183771A9E1CF000038B87 /* ABFColorWall.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ABFColorWall.h; sourceTree = "<group>"; };
+		ACB183781A9E1CF000038B87 /* ABFColorWall.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ABFColorWall.m; sourceTree = "<group>"; };
+		ACB1837B1A9E24FD00038B87 /* ABFSoundWallFactory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ABFSoundWallFactory.h; sourceTree = "<group>"; };
+		ACB1837C1A9E24FD00038B87 /* ABFSoundWallFactory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ABFSoundWallFactory.m; sourceTree = "<group>"; };
+		ACB1837E1A9E250D00038B87 /* ABFColorWallFactory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ABFColorWallFactory.h; sourceTree = "<group>"; };
+		ACB1837F1A9E250D00038B87 /* ABFColorWallFactory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ABFColorWallFactory.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,23 +115,14 @@
 			children = (
 				ACB183241A9DD43100038B87 /* AppDelegate.h */,
 				ACB183251A9DD43100038B87 /* AppDelegate.m */,
-				ACB183271A9DD43100038B87 /* ViewController.h */,
-				ACB183281A9DD43100038B87 /* ViewController.m */,
-				ACB1832A1A9DD43100038B87 /* Main.storyboard */,
+				ACB183461A9DDB6100038B87 /* Logic */,
+				ACB183471A9DDB6100038B87 /* View */,
+				ACB1834B1A9DDB6100038B87 /* ViewController */,
 				ACB1832D1A9DD43100038B87 /* Images.xcassets */,
 				ACB1832F1A9DD43100038B87 /* LaunchScreen.xib */,
-				ACB183201A9DD43100038B87 /* Supporting Files */,
+				ACB183561A9DDF5D00038B87 /* Supporting Files */,
 			);
 			path = AbctractFactory;
-			sourceTree = "<group>";
-		};
-		ACB183201A9DD43100038B87 /* Supporting Files */ = {
-			isa = PBXGroup;
-			children = (
-				ACB183211A9DD43100038B87 /* Info.plist */,
-				ACB183221A9DD43100038B87 /* main.m */,
-			);
-			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
 		ACB183391A9DD43100038B87 /* AbctractFactoryTests */ = {
@@ -117,6 +140,108 @@
 				ACB1833B1A9DD43100038B87 /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		ACB183461A9DDB6100038B87 /* Logic */ = {
+			isa = PBXGroup;
+			children = (
+				ACB183731A9E1BDC00038B87 /* ABFWallTypeEnum.h */,
+				ACB183651A9E04AD00038B87 /* ABFLabyrinth.h */,
+				ACB183661A9E04AD00038B87 /* ABFLabyrinth.m */,
+				ACB183681A9E14FD00038B87 /* WallFactory */,
+			);
+			path = Logic;
+			sourceTree = "<group>";
+		};
+		ACB183471A9DDB6100038B87 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				ACB183481A9DDB6100038B87 /* StoryBoards */,
+				ACB1834A1A9DDB6100038B87 /* Views */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		ACB183481A9DDB6100038B87 /* StoryBoards */ = {
+			isa = PBXGroup;
+			children = (
+				ACB183491A9DDB6100038B87 /* ABFMain.storyboard */,
+				ACB183501A9DDCA800038B87 /* ABFMainStoryboard.h */,
+				ACB183511A9DDCA800038B87 /* ABFMainStoryboard.m */,
+			);
+			path = StoryBoards;
+			sourceTree = "<group>";
+		};
+		ACB1834A1A9DDB6100038B87 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				ACB1835F1A9DF5F200038B87 /* LabirinthView */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		ACB1834B1A9DDB6100038B87 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				ACB1834C1A9DDB6100038B87 /* ABFMainScreenViewController.h */,
+				ACB1834D1A9DDB6100038B87 /* ABFMainScreenViewController.m */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		ACB183561A9DDF5D00038B87 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				ACB183571A9DDF5D00038B87 /* AbstractFactory-Prefix.pch */,
+				ACB183581A9DDF5D00038B87 /* Info.plist */,
+				ACB183591A9DDF5D00038B87 /* main.m */,
+			);
+			path = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		ACB1835F1A9DF5F200038B87 /* LabirinthView */ = {
+			isa = PBXGroup;
+			children = (
+				ACB183601A9DF5F200038B87 /* ABFLabyrinthView.xib */,
+				ACB183621A9DFBCD00038B87 /* ABFLabyrinthView.h */,
+				ACB183631A9DFBCD00038B87 /* ABFLabyrinthView.m */,
+			);
+			path = LabirinthView;
+			sourceTree = "<group>";
+		};
+		ACB183681A9E14FD00038B87 /* WallFactory */ = {
+			isa = PBXGroup;
+			children = (
+				ACB1836D1A9E1AE300038B87 /* ABFWallFactory.h */,
+				ACB1836E1A9E1AE300038B87 /* ABFWallFactory.m */,
+				ACB1837A1A9E243800038B87 /* Factories */,
+				ACB183691A9E151F00038B87 /* Walls */,
+			);
+			path = WallFactory;
+			sourceTree = "<group>";
+		};
+		ACB183691A9E151F00038B87 /* Walls */ = {
+			isa = PBXGroup;
+			children = (
+				ACB1836A1A9E171300038B87 /* ABFWall.h */,
+				ACB1836B1A9E171300038B87 /* ABFWall.m */,
+				ACB183741A9E1CE000038B87 /* ABFSoundWall.h */,
+				ACB183751A9E1CE000038B87 /* ABFSoundWall.m */,
+				ACB183771A9E1CF000038B87 /* ABFColorWall.h */,
+				ACB183781A9E1CF000038B87 /* ABFColorWall.m */,
+			);
+			path = Walls;
+			sourceTree = "<group>";
+		};
+		ACB1837A1A9E243800038B87 /* Factories */ = {
+			isa = PBXGroup;
+			children = (
+				ACB1837B1A9E24FD00038B87 /* ABFSoundWallFactory.h */,
+				ACB1837C1A9E24FD00038B87 /* ABFSoundWallFactory.m */,
+				ACB1837E1A9E250D00038B87 /* ABFColorWallFactory.h */,
+				ACB1837F1A9E250D00038B87 /* ABFColorWallFactory.m */,
+			);
+			path = Factories;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -163,6 +288,7 @@
 		ACB183151A9DD43100038B87 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				CLASSPREFIX = ABF;
 				LastUpgradeCheck = 0610;
 				ORGANIZATIONNAME = "Artem ";
 				TargetAttributes = {
@@ -199,9 +325,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				ACB1832C1A9DD43100038B87 /* Main.storyboard in Resources */,
+				ACB183611A9DF5F200038B87 /* ABFLabyrinthView.xib in Resources */,
+				ACB1835A1A9DDF5D00038B87 /* Info.plist in Resources */,
 				ACB183311A9DD43100038B87 /* LaunchScreen.xib in Resources */,
 				ACB1832E1A9DD43100038B87 /* Images.xcassets in Resources */,
+				ACB1834E1A9DDB6100038B87 /* ABFMain.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -219,9 +347,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				ACB183291A9DD43100038B87 /* ViewController.m in Sources */,
+				ACB183641A9DFBCD00038B87 /* ABFLabyrinthView.m in Sources */,
+				ACB1834F1A9DDB6100038B87 /* ABFMainScreenViewController.m in Sources */,
+				ACB183521A9DDCA800038B87 /* ABFMainStoryboard.m in Sources */,
+				ACB1837D1A9E24FD00038B87 /* ABFSoundWallFactory.m in Sources */,
+				ACB1835B1A9DDF5D00038B87 /* main.m in Sources */,
+				ACB183761A9E1CE000038B87 /* ABFSoundWall.m in Sources */,
+				ACB1836F1A9E1AE300038B87 /* ABFWallFactory.m in Sources */,
 				ACB183261A9DD43100038B87 /* AppDelegate.m in Sources */,
-				ACB183231A9DD43100038B87 /* main.m in Sources */,
+				ACB183801A9E250D00038B87 /* ABFColorWallFactory.m in Sources */,
+				ACB183791A9E1CF000038B87 /* ABFColorWall.m in Sources */,
+				ACB183671A9E04AD00038B87 /* ABFLabyrinth.m in Sources */,
+				ACB1836C1A9E171400038B87 /* ABFWall.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -244,14 +381,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		ACB1832A1A9DD43100038B87 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				ACB1832B1A9DD43100038B87 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		ACB1832F1A9DD43100038B87 /* LaunchScreen.xib */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -297,7 +426,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -332,7 +461,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
@@ -343,7 +472,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "AbctractFactory/Supporting Files/AbstractFactory-Prefix.pch";
 				INFOPLIST_FILE = AbctractFactory/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -353,7 +485,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "AbctractFactory/Supporting Files/AbstractFactory-Prefix.pch";
 				INFOPLIST_FILE = AbctractFactory/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -412,6 +547,7 @@
 				ACB183421A9DD43100038B87 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		ACB183431A9DD43100038B87 /* Build configuration list for PBXNativeTarget "AbctractFactoryTests" */ = {
 			isa = XCConfigurationList;
@@ -420,6 +556,7 @@
 				ACB183451A9DD43100038B87 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
