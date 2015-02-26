@@ -9,7 +9,16 @@
 #import "ABFWallFactory.h"
 #import "ABFSoundWallFactory.h"
 #import "ABFColorWallFactory.h"
+#import "ABFWallTypeEnum.h"
 
 @implementation ABFWallFactory
+
++ (ABFWallFactory *)getWallFactory {
+    int typeNumber = arc4random() % 2;
+    if (typeNumber == ABFWallSoundType) {
+        return [[ABFSoundWallFactory alloc] init];
+    }
+    return [[ABFColorWallFactory alloc] init];
+}
 
 @end

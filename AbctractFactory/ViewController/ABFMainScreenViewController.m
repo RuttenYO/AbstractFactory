@@ -7,11 +7,13 @@
 //
 
 #import "ABFMainScreenViewController.h"
+#import "ABFLabyrinth.h"
 #import "ABFLabyrinthView.h"
 
 @interface ABFMainScreenViewController ()
 
-@property (weak, nonatomic) IBOutlet UIView *contentView;
+@property (nonatomic, weak) IBOutlet UIView *contentView;
+@property (nonatomic, strong) ABFLabyrinth *labyrinth;
 
 @end
 
@@ -20,7 +22,12 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     
+    _labyrinth = [[ABFLabyrinth alloc] init];
     
+    ABFLabyrinthView *labyrinthView = [[ABFLabyrinthView alloc] initWithLabyrinth:_labyrinth];
+    
+    [self.contentView addSubview:labyrinthView];
+
 }
 
 @end

@@ -10,6 +10,7 @@
 
 @interface ABFWallFactory : NSObject
 
++ (ABFWallFactory *)getWallFactory;
 - (ABFWall *)getWall;
 
 @end

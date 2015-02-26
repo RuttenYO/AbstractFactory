@@ -14,7 +14,6 @@
 		ACB1834E1A9DDB6100038B87 /* ABFMain.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ACB183491A9DDB6100038B87 /* ABFMain.storyboard */; };
 		ACB1834F1A9DDB6100038B87 /* ABFMainScreenViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ACB1834D1A9DDB6100038B87 /* ABFMainScreenViewController.m */; };
 		ACB183521A9DDCA800038B87 /* ABFMainStoryboard.m in Sources */ = {isa = PBXBuildFile; fileRef = ACB183511A9DDCA800038B87 /* ABFMainStoryboard.m */; };
-		ACB1835A1A9DDF5D00038B87 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = ACB183581A9DDF5D00038B87 /* Info.plist */; };
 		ACB1835B1A9DDF5D00038B87 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = ACB183591A9DDF5D00038B87 /* main.m */; };
 		ACB183611A9DF5F200038B87 /* ABFLabyrinthView.xib in Resources */ = {isa = PBXBuildFile; fileRef = ACB183601A9DF5F200038B87 /* ABFLabyrinthView.xib */; };
 		ACB183641A9DFBCD00038B87 /* ABFLabyrinthView.m in Sources */ = {isa = PBXBuildFile; fileRef = ACB183631A9DFBCD00038B87 /* ABFLabyrinthView.m */; };
@@ -326,7 +325,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				ACB183611A9DF5F200038B87 /* ABFLabyrinthView.xib in Resources */,
-				ACB1835A1A9DDF5D00038B87 /* Info.plist in Resources */,
 				ACB183311A9DD43100038B87 /* LaunchScreen.xib in Resources */,
 				ACB1832E1A9DD43100038B87 /* Images.xcassets in Resources */,
 				ACB1834E1A9DDB6100038B87 /* ABFMain.storyboard in Resources */,
@@ -472,6 +470,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "AbctractFactory/Supporting Files/AbstractFactory-Prefix.pch";
 				INFOPLIST_FILE = "$(SRCROOT)/AbctractFactory/Supporting Files/Info.plist";
@@ -485,6 +484,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "AbctractFactory/Supporting Files/AbstractFactory-Prefix.pch";
 				INFOPLIST_FILE = "$(SRCROOT)/AbctractFactory/Supporting Files/Info.plist";

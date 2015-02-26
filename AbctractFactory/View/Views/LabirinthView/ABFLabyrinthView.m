@@ -11,6 +11,8 @@
 
 @interface ABFLabyrinthView()
 
+@property (nonatomic, strong) ABFLabyrinth *labyrinth;
+
 @end
 
 @implementation ABFLabyrinthView
@@ -18,7 +20,7 @@
 - (instancetype)initWithLabyrinth:(ABFLabyrinth *)labyrinth {
     self = [self init];
     if (self) {
-        
+        _labyrinth = labyrinth;
     }
     return self;
 }
