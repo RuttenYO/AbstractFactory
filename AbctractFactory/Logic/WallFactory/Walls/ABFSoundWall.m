@@ -7,6 +7,13 @@
 //
 
 #import "ABFSoundWall.h"
+#import <AVFoundation/AVFoundation.h>
+
+@interface ABFSoundWall() <AVAudioPlayerDelegate>
+
+@property (nonatomic, strong) AVAudioPlayer *backgroundMusicPlayer;
+
+@end
 
 @implementation ABFSoundWall
 
@@ -22,6 +29,13 @@
 - (void)wallTouched {
     [super wallTouched];
     NSLog(@"It was SOUND wall");
+    NSError *error = nil;
+    NSURL *backgroundMusicURL = [[NSBundle mainBundle] URLForResource:@"You-shall-not-pass!" withExtension:@"mp3"];
+    self.backgroundMusicPlayer = [[AVAudioPlayer alloc] initWithContentsOfURL:backgroundMusicURL error:&error];
+    [self.backgroundMusicPlayer setDelegate:self];
+    [self.backgroundMusicPlayer prepareToPlay];
+    [self.backgroundMusicPlayer play];
+    
 }
 
 @end

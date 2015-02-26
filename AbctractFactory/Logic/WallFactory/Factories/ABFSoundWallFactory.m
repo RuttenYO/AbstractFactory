@@ -12,7 +12,7 @@
 @implementation ABFSoundWallFactory
 
 - (ABFWall *)getWall {
-    ABFSoundWall *soundWall = [[ABFSoundWall alloc] initWithFrame:CGRectMake(10, 10, 2, 80)];
+    ABFSoundWall *soundWall = [[ABFSoundWall alloc] init];
     return soundWall;
 }
 

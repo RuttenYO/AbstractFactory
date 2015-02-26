@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		ACB1553B1A9F84370003190A /* You-shall-not-pass!.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = ACB1553A1A9F84370003190A /* You-shall-not-pass!.mp3 */; };
 		ACB183261A9DD43100038B87 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = ACB183251A9DD43100038B87 /* AppDelegate.m */; };
 		ACB1832E1A9DD43100038B87 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ACB1832D1A9DD43100038B87 /* Images.xcassets */; };
 		ACB183311A9DD43100038B87 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = ACB1832F1A9DD43100038B87 /* LaunchScreen.xib */; };
@@ -37,6 +38,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		ACB1553A1A9F84370003190A /* You-shall-not-pass!.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "You-shall-not-pass!.mp3"; sourceTree = "<group>"; };
 		ACB1831D1A9DD43100038B87 /* AbctractFactory.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AbctractFactory.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		ACB183241A9DD43100038B87 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		ACB183251A9DD43100038B87 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -192,6 +194,7 @@
 			isa = PBXGroup;
 			children = (
 				ACB183571A9DDF5D00038B87 /* AbstractFactory-Prefix.pch */,
+				ACB1553A1A9F84370003190A /* You-shall-not-pass!.mp3 */,
 				ACB183581A9DDF5D00038B87 /* Info.plist */,
 				ACB183591A9DDF5D00038B87 /* main.m */,
 			);
@@ -324,6 +327,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				ACB1553B1A9F84370003190A /* You-shall-not-pass!.mp3 in Resources */,
 				ACB183611A9DF5F200038B87 /* ABFLabyrinthView.xib in Resources */,
 				ACB183311A9DD43100038B87 /* LaunchScreen.xib in Resources */,
 				ACB1832E1A9DD43100038B87 /* Images.xcassets in Resources */,
@@ -407,6 +411,7 @@
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
@@ -448,6 +453,7 @@
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = YES;
 				ENABLE_NS_ASSERTIONS = NO;
@@ -471,6 +477,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "AbctractFactory/Supporting Files/AbstractFactory-Prefix.pch";
 				INFOPLIST_FILE = "$(SRCROOT)/AbctractFactory/Supporting Files/Info.plist";
@@ -485,6 +492,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "AbctractFactory/Supporting Files/AbstractFactory-Prefix.pch";
 				INFOPLIST_FILE = "$(SRCROOT)/AbctractFactory/Supporting Files/Info.plist";

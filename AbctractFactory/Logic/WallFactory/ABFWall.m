@@ -8,7 +8,21 @@
 
 #import "ABFWall.h"
 
+@interface ABFWall()
+
+@property (nonatomic, strong) UIGestureRecognizer *gestureRecognizer;
+
+@end
+
 @implementation ABFWall
+
+- (instancetype)init {
+    self = [super init];
+    if (self) {
+        
+    }
+    return self;
+}
 
 - (void)wallTouched {
     NSLog(@"Some wall was touched");

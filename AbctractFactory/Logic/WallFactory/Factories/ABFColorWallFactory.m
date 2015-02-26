@@ -12,7 +12,7 @@
 @implementation ABFColorWallFactory
 
 - (ABFWall *)getWall {
-    ABFColorWall *colorWall = [[ABFColorWall alloc] initWithFrame:CGRectMake(20, 20, 80, 2)];
+    ABFColorWall *colorWall = [[ABFColorWall alloc] init];
     return colorWall;
 }
 

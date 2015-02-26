@@ -22,6 +22,16 @@
 - (void)wallTouched {
     [super wallTouched];
     NSLog(@"It was COLOR wall");
+    
+    CGFloat redLevel    = rand() / (float) RAND_MAX;
+    CGFloat greenLevel  = rand() / (float) RAND_MAX;
+    CGFloat blueLevel   = rand() / (float) RAND_MAX;
+    
+    self.backgroundColor = [UIColor colorWithRed: redLevel
+                                             green: greenLevel
+                                              blue: blueLevel
+                                             alpha: 1.0];
+    
 }
 
 @end

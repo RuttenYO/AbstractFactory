@@ -39,10 +39,9 @@ static const int kABFLinesNumber = 4;
         NSMutableArray *wallsInLine = [NSMutableArray new];
         for (int rowInLineNumber = 0; rowInLineNumber < kABFRowsInLineNumber; rowInLineNumber++) {
             if ([self isRowWallExistInLine:lineNumber atIndex:rowInLineNumber]) {
-                [wallsInLine addObject:[self wall]];
-            }
-            else {
-                [wallsInLine addObject:@""];
+                ABFWall * rowWall = [self wall];
+                [rowWall setFrame:CGRectMake(rowInLineNumber * 80, lineNumber * 80, 2, 80)];
+                [wallsInLine addObject:rowWall];
             }
         }
         [self.rowWalls addObject:wallsInLine];
@@ -52,10 +51,9 @@ static const int kABFLinesNumber = 4;
         NSMutableArray *wallsInLine = [NSMutableArray new];
         for (int columnInLineNumber = 0; columnInLineNumber < kABFColumnsInLineNumber; columnInLineNumber++) {
             if ([self isColumnWallExistInLine:lineNumber atIndex:columnInLineNumber]) {
-                [wallsInLine addObject:[self wall]];
-            }
-            else {
-                [wallsInLine addObject:@""];
+                ABFWall * columnWall = [self wall];
+                [columnWall setFrame:CGRectMake(lineNumber * 80, columnInLineNumber * 80, 80, 2)];
+                [wallsInLine addObject:columnWall];
             }
         }
         [self.columnWalls addObject:wallsInLine];

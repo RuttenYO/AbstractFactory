@@ -14,6 +14,7 @@
 
 @property (nonatomic, weak) IBOutlet UIView *contentView;
 @property (nonatomic, strong) ABFLabyrinth *labyrinth;
+@property (nonatomic, strong) ABFLabyrinthView *labyrinthView;
 
 @end
 
@@ -24,9 +25,9 @@
     
     _labyrinth = [[ABFLabyrinth alloc] init];
     
-    ABFLabyrinthView *labyrinthView = [[ABFLabyrinthView alloc] initWithLabyrinth:_labyrinth];
+    _labyrinthView = [[ABFLabyrinthView alloc] initWithLabyrinth:_labyrinth];
     
-    [self.contentView addSubview:labyrinthView];
+    [self.contentView addSubview:_labyrinthView];
 
 }
 
