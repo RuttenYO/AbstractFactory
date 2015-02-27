@@ -14,6 +14,10 @@
 
 @property (nonatomic, strong) ABFLabyrinth *labyrinth;
 @property (nonatomic, strong) NSMutableArray *wallsArray;
+@property (nonatomic, assign) CGFloat firstX;
+@property (nonatomic, assign) CGFloat firstY;
+@property (weak, nonatomic) IBOutlet UIImageView *gendaplhImageView;
+@property (nonatomic, strong) UIPanGestureRecognizer *gendalphGestureRecognizer;
 
 @end
 
@@ -30,6 +34,10 @@
         _labyrinth = labyrinth;
         _wallsArray = [NSMutableArray new];
         [self drawLabyrinth];
+        _gendalphGestureRecognizer = [[UIPanGestureRecognizer alloc] initWithTarget:self action:@selector(handlePanAction:)];
+        
+        [self.gendaplhImageView addGestureRecognizer:self.gendalphGestureRecognizer];
+        
     }
     return self;
 }
@@ -50,17 +58,18 @@
     }
 }
 
-- (void)touchesMoved:(NSSet *)touches withEvent:(UIEvent *)event
-{
-    UITouch *touch = [[event allTouches] anyObject];
-    CGPoint touchLocation = [touch locationInView:self];
+- (void)handlePanAction:(UIPanGestureRecognizer *)recognizer {
+    CGPoint translation = [recognizer translationInView:self];
+    if(recognizer.state == UIGestureRecognizerStateBegan) {
+        self.firstX = self.gendaplhImageView.center.x;
+        self.firstY = self.gendaplhImageView.center.y;
+    }
+    translation = CGPointMake(self.firstX + translation.x, self.firstY + translation.y);
+    self.gendaplhImageView.center = translation;
     
-    for (UIView *view in self.subviews)
-    {
-        if ([view isKindOfClass:[ABFWall class]] &&
-            CGRectContainsPoint(view.frame, touchLocation))
-        {
-            [(ABFWall *)view wallTouched];
+    for (ABFWall *wall in self.wallsArray) {
+        if (CGRectIntersectsRect(self.gendaplhImageView.frame, wall.frame)) {
+            [wall wallTouched];
         }
     }
 }

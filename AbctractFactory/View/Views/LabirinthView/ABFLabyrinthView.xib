@@ -11,23 +11,19 @@
             <rect key="frame" x="0.0" y="0.0" width="320" height="320"/>
             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
             <subviews>
-                <imageView userInteractionEnabled="NO" contentMode="redraw" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="gendalph" translatesAutoresizingMaskIntoConstraints="NO" id="SyE-4E-LlF">
+                <imageView contentMode="redraw" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="gendalph" translatesAutoresizingMaskIntoConstraints="NO" id="SyE-4E-LlF">
                     <rect key="frame" x="10" y="10" width="60" height="60"/>
-                    <constraints>
-                        <constraint firstAttribute="height" constant="60" id="2xn-HD-dcy"/>
-                        <constraint firstAttribute="width" constant="60" id="ItG-Jn-EtZ"/>
-                    </constraints>
+                    <gestureRecognizers/>
                 </imageView>
             </subviews>
             <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
-            <constraints>
-                <constraint firstItem="SyE-4E-LlF" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" constant="10" id="2pX-it-DDN"/>
-                <constraint firstItem="SyE-4E-LlF" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="10" id="Wpu-1t-H2e"/>
-            </constraints>
             <nil key="simulatedStatusBarMetrics"/>
             <nil key="simulatedTopBarMetrics"/>
             <nil key="simulatedBottomBarMetrics"/>
             <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <connections>
+                <outlet property="gendaplhImageView" destination="SyE-4E-LlF" id="bDK-z3-NQt"/>
+            </connections>
             <point key="canvasLocation" x="335" y="380"/>
         </view>
     </objects>
