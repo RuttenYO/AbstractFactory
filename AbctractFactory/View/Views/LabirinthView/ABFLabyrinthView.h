@@ -11,6 +11,5 @@
 @interface ABFLabyrinthView : UIView
 
 - (instancetype)initWithLabyrinth:(ABFLabyrinth *)labyrinth;
-- (void)drawLabyrinth;
 
 @end

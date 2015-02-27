@@ -34,10 +34,9 @@
         _labyrinth = labyrinth;
         _wallsArray = [NSMutableArray new];
         [self drawLabyrinth];
+        
         _gendalphGestureRecognizer = [[UIPanGestureRecognizer alloc] initWithTarget:self action:@selector(handlePanAction:)];
-        
         [self.gendaplhImageView addGestureRecognizer:self.gendalphGestureRecognizer];
-        
     }
     return self;
 }

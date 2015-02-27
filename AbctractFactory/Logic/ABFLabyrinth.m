@@ -13,6 +13,8 @@
 static const int kABFRowsInLineNumber = 5;
 static const int kABFColumnsInLineNumber = 5;
 static const int kABFLinesNumber = 4;
+static const CGFloat kABFWallLength = 80.f;
+static const CGFloat kABFWallWidth = 2.f;
 
 @interface ABFLabyrinth()
 
@@ -40,7 +42,7 @@ static const int kABFLinesNumber = 4;
         for (int rowInLineNumber = 0; rowInLineNumber < kABFRowsInLineNumber; rowInLineNumber++) {
             if ([self isRowWallExistInLine:lineNumber atIndex:rowInLineNumber]) {
                 ABFWall * rowWall = [self wall];
-                [rowWall setFrame:CGRectMake(rowInLineNumber * 80, lineNumber * 80, 2, 80)];
+                [rowWall setFrame:CGRectMake(rowInLineNumber * kABFWallLength, lineNumber * kABFWallLength, kABFWallWidth, kABFWallLength)];
                 [wallsInLine addObject:rowWall];
             }
         }
@@ -52,7 +54,7 @@ static const int kABFLinesNumber = 4;
         for (int columnInLineNumber = 0; columnInLineNumber < kABFColumnsInLineNumber; columnInLineNumber++) {
             if ([self isColumnWallExistInLine:lineNumber atIndex:columnInLineNumber]) {
                 ABFWall * columnWall = [self wall];
-                [columnWall setFrame:CGRectMake(lineNumber * 80, columnInLineNumber * 80, 80, 2)];
+                [columnWall setFrame:CGRectMake(lineNumber * kABFWallLength, columnInLineNumber * kABFWallLength, kABFWallLength, kABFWallWidth)];
                 [wallsInLine addObject:columnWall];
             }
         }

@@ -8,8 +8,6 @@
 
 #import "ABFWallFactory.h"
 
-@class ABFWall;
-
 @interface ABFSoundWallFactory : ABFWallFactory
 
 @end

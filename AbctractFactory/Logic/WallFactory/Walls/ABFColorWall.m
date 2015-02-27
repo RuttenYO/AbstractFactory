@@ -10,8 +10,7 @@
 
 @implementation ABFColorWall
 
-- (instancetype)init
-{
+- (instancetype)init {
     self = [super init];
     if (self) {
         [self setBackgroundColor:[UIColor redColor]];

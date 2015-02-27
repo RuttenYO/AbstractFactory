@@ -17,8 +17,7 @@
 
 @implementation ABFSoundWall
 
-- (instancetype)init
-{
+- (instancetype)init {
     self = [super init];
     if (self) {
         [self setBackgroundColor:[UIColor blueColor]];
